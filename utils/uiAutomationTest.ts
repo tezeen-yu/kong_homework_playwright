@@ -22,5 +22,3 @@ export const uiAutomationTest = base.extend<Fixtures>({
     await use(sidebarMenu);
   },
 });
-
-// module.exports = { uiAutomationTest };

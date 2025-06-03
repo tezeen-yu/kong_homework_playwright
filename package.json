@@ -1,0 +1,19 @@
+{
+  "name": "kong-homework",
+  "description": "Kong Homework e2e Automation",
+  "version": "1.0.0",
+  "author": "Dan Yu <dandanyu1987@163.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "npx playwright test --project=chromium",
+    "e2e": "npx playwright test e2e/kong.e2e.spec.ts --project=chromium",
+    "api": "npx playwright test api/kong.api.spec.ts --project=chromium",
+    "debug": "npx playwright test --grep @debug --project=chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21",
+    "playwright": "^1.38.0",
+    "typescript": "^5.8.3"
+  }
+}

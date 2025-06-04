@@ -29,8 +29,6 @@ This project provides end-to-end (E2E) automation tests for Kong Manager using P
 
 - `const/` - Constants used in tests
 - `model/` - Page objects and models for UI automation
-- `playwright/` - Playwright configuration and helpers
-- `playwright-report/` - Playwright test reports
 - `tests/` - Test cases (UI and API)
 - `utils/` - Utility functions and setup scripts
 

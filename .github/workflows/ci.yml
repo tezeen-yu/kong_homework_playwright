@@ -32,7 +32,7 @@ jobs:
           docker-compose --version
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npm run test
 
       - name: Upload test report
         if: always()

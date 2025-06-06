@@ -9,7 +9,7 @@ export default defineConfig({
   // retries: 1,
   outputDir: './playwright/test-results',
   use: {
-    headless: false,
+    headless: true,
     baseURL: 'http://localhost:8002/default/',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
